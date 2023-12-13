@@ -10,7 +10,7 @@ function App() {
     <div className="App">
   <Nav/>
   <Banner/>
-  <Row title="NETFLIX ORIGINALS"fetchUrl={requests.fetchNetflixOriginas}isLargeRow/>
+  <Row title="NETFLIX ORIGINALS"fetchUrl={requests.fetchNetflixOriginals}isLargeRow/>
   <Row title="Trending Now"fetchUrl={requests.fetchTrending}/>
   <Row title="Top Rated"fetchUrl={requests.fetchTopRatedMovies}/>
   <Row title="Acttion Movies"fetchUrl={requests.fetchActionMovies}/>
@@ -23,6 +23,7 @@ function App() {
 }
 
 export default App;
-
-
+// "homepage": "https://bahriaaman.github.io/netflix-baharia23",
+// "predeploy": "npm run build",
+//     "deploy": "gh-pages -d build",
 
